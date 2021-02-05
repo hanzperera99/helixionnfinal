@@ -1,0 +1,442 @@
+.xxx
+{
+    display: none;
+}
+
+
+@media screen and (max-width: 2000px)
+{
+    .pc-version
+    {
+        display: block;
+    }
+
+    body
+    { 
+        background: url('Services.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        font-family: 'Poppins';
+        overflow: scroll;
+    }
+
+    #nav {
+        position: absolute;
+        left: 0px;
+        height: 40px;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+    }
+    #nav ul {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        list-style-type:none;
+    }
+    #nav ul li {
+        margin: 0;
+        padding: 0;
+        float:left;   
+    }
+    #nav ul li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+        color: #424247;
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: 600;
+    }
+
+    .service-image
+    {
+        width: 29%;
+        top: 20%;
+        position: absolute;
+    }
+
+    .service-section
+    {
+        margin-top: 10%;
+    }
+
+    #service-title
+    {
+        margin-bottom: 2.5%;
+        color: #0274BD;
+        font-size: 1.4vw;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 2%;
+    }
+
+    #service-description
+    {
+        line-height: 2.25;
+        font-size: 1.2vw;
+        font-weight: 550;  
+        text-align: center;
+        margin-bottom: 07%;
+    }
+
+    #social-media-list
+    {
+        list-style-type: none;
+        padding-top: 100%;
+        padding-right: 20%;
+    }
+
+    #fb
+    {
+        width: 12px;
+        margin-top: 13%;
+        margin-right: 2%;
+    }
+
+    #yt
+    {
+        width: 20px;
+        margin-top: 13%;
+    }
+
+    #ig
+    {
+        width: 20px;
+        margin-top: 13%;    
+    }
+
+    #tw
+    {
+        width: 20px;
+        margin-top: 13%;    
+    }
+
+    #dash
+    {
+        margin-top: 13%;
+        margin-right: 4%;
+        height: 100px;
+        width: 3px;
+    }
+
+    .toggle-bottons
+    {
+        position: relative;
+        top: 60%; 
+        left: 30%;    
+    }
+
+    .previous
+    {
+        width: 50%;
+    }
+
+    .next
+    {
+        width: 50%;
+    }
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+    }
+    
+    .previous {
+        width: 55%;
+    }
+    
+    .next {
+        width: 55%;
+    }
+}
+
+
+    
+
+@media screen and (max-width: 992px) and (orientation: portrait)
+{
+    .pc-version
+    {
+        display: none;
+    }
+    
+    .tab-version
+    {
+        display: block;
+    }
+
+    body
+    { 
+        background: url('Mobile Service BG.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        font-family: 'Poppins';
+        overflow: scroll;
+    }
+
+    .navbar
+    {
+        visibility: hidden;
+    }
+
+    #nav {
+        position: absolute;
+        left: 0px;
+        height: 40px;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+    }
+    #nav ul {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        list-style-type:none;
+    }
+    #nav ul li {
+        margin: 0;
+        padding: 0;
+        float:left;
+        font-weight: 450
+        
+    }
+    #nav ul li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+        color: #424247;
+        text-align: center;
+        font-size: 16PX;
+    }
+
+    .divs
+    {
+        padding-top: 10%;
+    }
+
+    #service-title
+    {
+        margin-bottom: 8%;
+        font-size: 22px;
+    }
+
+    #service-description
+    {
+        font-size: 18.5px;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    .image-01-mobile
+    {
+        margin-top: 2%;
+        width: 90%;
+    }
+
+    .image-02-mobile
+    {
+        margin-top: 17%;
+        width: 90%;
+    }
+
+    .image-03-mobile
+    {
+        margin-top: 17%;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+
+    .image-04-mobile
+    {
+        margin-top: 17%;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) and (orientation: landscape)
+{
+    .pc-version
+    {
+        display: none;
+    }
+    
+    .tab-version
+    {
+        display: block;
+    }
+
+    body
+    { 
+        background: url('Mobile Contact BG.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        font-family: 'Poppins';
+        overflow: scroll;
+    }
+
+    .navbar
+    {
+        visibility: visible;
+        position: fixed;
+        overflow: hidden;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .divs
+    {
+        padding-top: 10%;
+    }
+
+    #service-title
+    {
+        margin-bottom: 4%;
+        font-size: 22px;
+    }
+
+    #service-description
+    {
+        font-size: 18.5px;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    .image-01-mobile
+    {
+        margin-top: 10%;
+        width: 60%;
+    }
+
+    .image-02-mobile
+    {
+        margin-top: 12%;
+        width: 60%;
+    }
+
+    .image-03-mobile
+    {
+        margin-top: 16%;
+        margin-bottom: 8%;
+        width: 60%;
+    }
+
+    .image-04-mobile
+    {
+        margin-top: 17%;
+        margin-bottom: 8%;
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+  @media screen and (max-width: 600px)
+  {
+    .pc-version
+    {
+        display: none;
+    }
+
+    .tab-nav
+    {
+        display: none;
+    }
+    
+    .tab-version
+    {
+        display: none;
+    }
+
+    .mobile-version
+    {
+        display: block;
+    }
+
+    body
+    { 
+        background: url('Mobile Service BG.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        font-family: 'Poppins';
+        overflow: scroll;
+    }
+
+    .navbar
+    {
+        visibility: visible;
+        position: fixed;
+        overflow: hidden;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .divs
+    {
+        padding-top: 10%;
+    }
+
+    #service-title
+    {
+        margin-bottom: 8%;
+        font-size: 22px;
+    }
+
+    #service-description
+    {
+        font-size: 18.5px;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    .image-01-mobile
+    {
+        margin-top: 15%;
+        width: 90%;
+    }
+
+    .image-02-mobile
+    {
+        margin-top: 17%;
+        width: 90%;
+    }
+
+    .image-03-mobile
+    {
+        margin-top: 17%;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+
+    .image-04-mobile
+    {
+        margin-top: 17%;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+
+  }
+
+
+
+
+
