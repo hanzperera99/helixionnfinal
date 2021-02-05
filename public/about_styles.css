@@ -1,0 +1,139 @@
+.xxx
+{
+    display: none;
+}
+
+@media screen and (max-width: 5000px)
+{
+    .pc-version
+    {
+        display: block;
+    }
+    
+    body
+    { 
+        background: url('About Us.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        font-family: 'Poppins';
+        overflow: scroll;
+        /* background-color: #E4E4E6; */
+    }
+
+    #nav {
+        position: absolute;
+        left: 0px;
+        height: 40px;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+    }
+    #nav ul {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        list-style-type:none;
+    }
+    #nav ul li {
+        margin: 0;
+        padding: 0;
+        float:left;
+        font-weight: 450
+        
+    }
+    #nav ul li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+        color: #424247;
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: 600;
+    }
+
+    #about-us-heading
+    {
+        margin-top: 14%;
+        text-align: center;
+        font-size: 1.3vw;
+    }
+
+    #about-us-description
+    {
+        text-align: center;
+        font-size: 1.0vw;
+    }
+
+    .grey-text
+    {
+        font-weight: 1.5vw;
+    }
+
+    .xxxx
+    {
+        padding-left: 2%;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    
+}
+
+@media screen and (max-width: 600px)
+{
+    .pc-version
+    {
+        display: none;
+    }
+
+    .mobile-version
+    {
+        display: block;
+    }
+    
+    body
+    { 
+        background: url('About Us.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        font-family: 'Poppins';
+        overflow: scroll;
+        /* background-color: #E4E4E6; */
+    }
+
+    .navbar
+    {
+        visibility: visible;
+        position: fixed;
+        overflow: hidden;
+        width: 100%;
+        z-index: 2;
+    }
+
+    #about-us-heading
+    {
+        margin-top: 14%;
+        padding-top: 20%;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    #about-us-description
+    {
+        text-align: center;
+        margin-bottom: -5%;
+        font-size: 17px;
+    }
+
+    .xxxx
+    {
+        padding-left: 2%;
+    }
+}
